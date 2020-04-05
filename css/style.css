@@ -1,0 +1,76 @@
+h1,h2,h3,h4{
+
+    color:#ffc137;
+}
+nav#cus-nav{
+    background-color: rgba(0,0,0,0.5);
+
+}
+#cus-nav  .nav-link{
+    color: white;
+}
+#cus-nav  .nav-link:hover{
+    color:#ffc137;
+}
+#cover{
+    height: 100vh;
+    background: url('../img/img5.jpg') bottom left no-repeat;
+    background-size: cover;
+}
+#cover div{
+    text-align: center;
+    padding: 30vh 0;
+    color: white;
+}
+.showapt{
+    overflow: hidden;
+    height: 500px;
+}
+.showapt img:hover{
+    transition: all 0.5s;
+    transform:
+}
+#about{
+    background: url('../img/img2.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.subabout{
+    padding: 100px 0px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+footer{
+    background-color: rgba(0,0,0,1);
+}
+footer ul{
+    list-style: none;
+    color: white;
+}
+footer li{
+    margin-bottom: 10px;
+}
+footer .cus-icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border:  #ffc137 2px solid;
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 53px;
+}
+footer .cus-icon:hover{
+    background-color:#ffc137;
+}
+footer span i{
+    font-size: 30px;
+    color: #ffc137;
+}
+footer i{
+    font-size: 20px;
+    color: #ffc137;
+}
+footer li a{
+    color: white;
+}
